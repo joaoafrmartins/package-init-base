@@ -1,0 +1,28 @@
+{
+  "name": "package-init-base",
+  "version": "0.0.0",
+  "main": "lib/main",
+  "scripts": {
+    "test": "mocha --reporter spec --compilers coffee:coffee-script/register ./spec"
+  },
+  "dependencies": {
+    "semver-regex": ""
+  },
+  "devDependencies": {
+    "kosher": ""
+  },
+  "description": "Package Init Base",
+  "keywords": [
+    "package",
+    "init",
+    "base"
+  ],
+  "homepage": "https://github.com/joaoafrmartins/package-init-base",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaoafrmartins/package-init-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joaoafrmartins/package-init-base/issues"
+  }
+}

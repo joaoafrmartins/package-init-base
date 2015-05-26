@@ -1,7 +1,7 @@
 {
   "name": "<%=context['package.name']%>",
   "version": "<%=context['package.version']%>",
-  "main": "lib/main",
+  "main": "dist",
   "description": "<%= context['package.description'] %>",
   "keywords": <%= context['package.keywords'] %>,
   "dependencies": {},
